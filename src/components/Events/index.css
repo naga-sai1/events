@@ -1,36 +1,32 @@
 .main-container {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  background-size: cover;
+  background-color: #3a4b63;
+  overflow: auto;
 }
 
 .event-container {
-  background-color: #3a4b63;
-  display: flex;
-  flex-direction: row;
-  overflow-y: auto;
-  width: 70%;
+  width: 60%;
   height: 100vh;
-  padding-top: 46px;
-  padding-bottom: 46px;
-  padding-left: 46px;
-  padding-right: 6px;
+  padding-top: 48px;
+  padding-right: 4px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  overflow-y: auto;
 }
 
-.event-heading {
+.heading {
   color: #f8fafc;
   font-family: 'Roboto';
+  font-size: 32px;
   font-weight: bold;
   line-height: 1.2px;
   margin: 0px;
-  margin-bottom: 46px;
+  margin-bottom: 48px;
 }
 
 .list-container {
-  list-style-type: none;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 0px;
   padding-left: 0px;

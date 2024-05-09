@@ -94,7 +94,7 @@ class Events extends Component {
     return (
       <div className="main-container">
         <div className="event-container">
-          <h1 className="event-heading">Events</h1>
+          <h1 className="heading">Events</h1>
           {this.renderEventsList()}
         </div>
         <ActiveEventRegistrationDetails
